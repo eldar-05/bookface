@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менин Социалдык Тармагым - Профиль</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .container {
+            width: 900px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #4267B2;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .profile-header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 10px;
+        }
+        .profile-header h2 {
+            margin: 10px 0 5px 0;
+            color: #1c1e21;
+        }
+        .profile-header p {
+            color: #65676b;
+            font-size: 14px;
+        }
+        .profile-nav {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: center;
+        }
+        .profile-nav a {
+            text-decoration: none;
+            color: #4267B2;
+            margin: 0 15px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .profile-nav a.active {
+            border-bottom: 2px solid #4267B2;
+        }
+        .profile-content {
+            display: flex;
+            padding: 20px;
+        }
+        .profile-sidebar {
+            width: 250px;
+            padding-right: 20px;
+        }
+        .profile-info-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .profile-info-box h3 {
+            margin-top: 0;
+            color: #1c1e21;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .profile-info-box p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .profile-info-box p strong {
+            color: #4267B2;
+        }
+        .profile-feed {
+            flex-grow: 1;
+            padding-left: 20px;
+            border-left: 1px solid #ddd;
+        }
+        .post {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .post .author {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .post .author a {
+            text-decoration: none;
+            color: #4267B2;
+        }
+        .post .time {
+            font-size: 12px;
+            color: #65676b;
+            margin-bottom: 10px;
+        }
+        .post .content {
+            margin-bottom: 10px;
+        }
+        .post .actions a {
+            color: #4267B2;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Менин Социалдык Тармагым</h1>
+            <nav>
+                <a href="index.html">Башкы бет</a>
+                <a href="profile.html">Профиль</a>
+                <a href="#">Достор</a>
+                <a href="#">Билдирүүлөр</a>
+            </nav>
+        </div>
+        <div class="profile-header">
+            <img src="img\silver surfer aura.jpg" alt="Профиль сүрөтү">
+            <h2>Элдар Жаркынбаев</h2>
+            <p>Программалык камсыздоо инженери | Дүйнөнү бир сап код менен изилдеп жатам.</p>
+        </div>
+        <div class="profile-nav">
+            <a href="#" class="active">Посттор</a>
+            <a href="#">Жөнүндө</a>
+            <a href="#">Достор</a>
+            <a href="#">Сүрөттөр</a>
+        </div>
+        <div class="profile-content">
+            <div class="profile-sidebar">
+                <div class="profile-info-box">
+                    <h3>Жөнүндө</h3>
+                    <p><strong>Жашаган жери:</strong> Бишкек, Кыргызстан</p>
+                    <p><strong>Келген жери:</strong> Ош, Кыргызстан</p>
+                    <p><strong>Иштейт:</strong> "Техинновация" ЖЧК</p>
+                    <p><strong>Окуган жери:</strong> Кыргыз Улуттук Университети</p>
+                    <p><strong>Кошулган күнү:</strong> 2012-жылдын январы</p>
+                </div>
+                <div class="profile-info-box">
+                    <h3>Достор (3)</h3>
+                    <p>Айгүл Садырова</p>
+                    <p>Азамат Бейшен уулу</p>
+                    <p>Касым Гайратбеков</p>
+                </div>
+            </div>
+            <div class="profile-feed">
+                <div class="post">
+                    <div class="author"><a href="profile.html">Элдар Жаркынбаев</a></div>
+                    <div class="time">7-июнь саат 22:00</div>
+                    <div class="content">
+                        Бишкекте жаңы жерлерди ачып, сонун күн өттү! Кыргызстандын кооз жайлары көп экен.
+                    </div>
+                    <div class="actions">
+                        <a href="#">Жакты</a>
+                        <a href="#">Комментарий</a>
+                        <a href="#">Бөлүшүү</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="author"><a href="profile.html">Элдар Жаркынбаев</a></div>
+                    <div class="time">28-май саат 15:00</div>
+                    <div class="content">
+                        Жакшы китеп жана бир чыны кофе менен жагымдуу түштөн кийин эс алып жатам.
+                    </div>
+                    <div class="actions">
+                        <a href="#">Жакты</a>
+                        <a href="#">Комментарий</a>
+                        <a href="#">Бөлүшүү</a>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="author"><a href="profile.html">Элдар Жаркынбаев</a></div>
+                    <div class="time">15-май саат 11:45</div>
+                    <div class="content">
+                        Жумушта татаал, бирок пайдалуу долбоорду аяктадым! Ийгиликке жеттим.
+                    </div>
+                    <div class="actions">
+                        <a href="#">Жакты</a>
+                        <a href="#">Комментарий</a>
+                        <a href="#">Бөлүшүү</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
